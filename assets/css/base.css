@@ -1,0 +1,43 @@
+:root{
+    --primary-color: #4D46FA;
+    --disablePrimary-color: rgba(77, 70, 250, 0.1);
+    --text-color: #000000 ;
+    --button-color: #F06336;
+    --text-button:#fff;
+    --disableButton-color:rgba(240, 99, 54, 0.1) ;
+    --text-buttonbsp:#F06336;
+}
+
+span {
+    font-weight: 300;
+}
+/*resetcss*/
+*{
+    box-sizing: inherit;
+   
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+input {
+    line-height: normal;
+}
+
+label, button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}

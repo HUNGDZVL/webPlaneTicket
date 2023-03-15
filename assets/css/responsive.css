@@ -1,0 +1,275 @@
+/*tablet*/
+@media (min-width: 740px) and (max-width:1023px) {
+    .app {
+        width: 100%;
+        max-width: calc(100% - 1px);
+    }
+
+    .header {
+        width: 100%;
+        background-position: center -214px;
+        max-width: calc(100% - 2px);
+        height: 640px;
+    }
+
+    .list__item {
+        width: 134px;
+        margin-left: -48px;
+    }
+
+    .header_first.product__first {
+        margin-left: -14px;
+        margin-right: 0px;
+    }
+
+    .fix--menu {
+        margin-left: -50px !important;
+    }
+
+    .header__button.product__btn {
+        margin-left: -234px;
+        margin-right: 43px;
+        margin-top: -24px;
+    }
+
+    .menu__list {
+        margin-left: 152px;
+    }
+
+    .header__text {
+        margin-left: -45px;
+        font-size: 40px;
+        margin-top: -60px;
+    }
+
+    .container__from--date {
+        display: flex;
+        display: none;
+    }
+
+    .container {
+        height: 170px;
+        max-width: calc(100% - 0.1px);
+        top: 500px;
+        left: 94px;
+        border-radius: 12px;
+        z-index: 1;
+    }
+
+    .container__from--text {
+        line-height: 10px;
+        width: 250px;
+        height: 80px;
+    }
+
+    .container__from--text.active__from {
+        width: 250px;
+    }
+
+    .container__from--text::after {
+        left: 250px;
+    }
+
+    .icon_vector {
+        top: 82px;
+        left: 268px;
+    }
+
+    .check__text {
+        font-size: 12px;
+    }
+
+    .container__check {
+        margin-top: -18px;
+    }
+
+    .container__mini {
+        margin-top: 0;
+    }
+
+    .footer__contact.fix--ft {
+        margin-top: 46px !important;
+    }
+
+    .footer__contact {
+        margin-top: 16px;
+        margin-left: auto;
+    }
+
+    .footer {
+        height: 122px;
+    }
+
+    .product__nav--btn {
+        margin-left: -15px;
+    }
+
+    .header__menu.product__first {
+        margin-right: 220px;
+        margin-top: 8px;
+    }
+
+
+
+    .product__nav--fromto.l-o-1 {
+        margin-left: 15px;
+    }
+
+    .fromto__icon {
+        margin-left: -41px;
+        margin-right: -25px;
+    }
+
+
+
+    .first_text {
+        margin-right: 12px;
+        width: 117px;
+        margin-left: 80px;
+    }
+
+    .product__nav--date {
+        display: flex;
+        margin-left: -42px;
+        margin-right: -11px;
+    }
+
+    img.date__img {
+        margin-right: 1px;
+        margin-left: -5px;
+    }
+
+    .fromto__text {
+        width: 150px;
+        margin-left: 34px;
+    }
+
+    .product__nav--date .date__text:nth-child(1) {
+
+        margin-left: 28px;
+        margin-right: -65px;
+    }
+
+    .datetime__text {
+        display: none;
+    }
+
+    .face__info.l-6 {
+        margin-left: 7px;
+        margin-top: -18px;
+    }
+
+    .face__icon--u {
+        display: none;
+    }
+
+    .face__text--from {
+        margin-left: 12px;
+        margin-top: -44px;
+    }
+
+    .ticket__infomation--second {
+        margin-left: 8px;
+    }
+
+    .footer .footer__contact:nth-child(2) {
+        margin-left: -10px;
+        margin-top: 16px;
+    }
+
+
+}
+
+/*mobile*/
+@media (max-width:739px) {
+    .header {
+        background-position: 0px -71px;
+        height: 340px
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__text {
+        font-size: 24px;
+        margin-left: -110px;
+        margin-top: -128px;
+    }
+
+    .container {
+        top: 263px;
+        left: 37px;
+        height: 110px;
+        width: 347px;
+    }
+
+    .container__from {
+        display: none;
+    }
+
+    .fix--mb {
+        display: none;
+    }
+
+    .footer__contact p {
+        font-size: 14px;
+    }
+
+    .container__mini {
+        margin-top: 0px;
+    }
+
+    .footer__contact.fix--ft {
+        margin-top: 50px;
+    }
+
+
+    .infomation__list {
+        margin-right: 165px;
+    }
+
+    .datetime__text {
+        display: none;
+    }
+
+    .navigation__container__first {
+        display: none;
+    }
+
+    button.ticket__btn--modifia {
+        display: none;
+    }
+
+    .navigation__footer.change--ticket-footer {
+        display: none;
+    }
+
+    .face__timedate,
+    .face__icon--u,
+    .face__text--from {
+        display: none;
+
+    }
+
+    .ticket__datetime {
+        margin-left: -16px;
+    }
+
+    .face__info__from {
+        margin-left: -85px;
+    }
+
+    .ticket__infomation--first {
+        display: none;
+    }
+
+    .ticket__infomation {
+        margin-left: 23px;
+    }
+
+    .footer .footer__contact:nth-child(2) {
+        margin-left: 8px;
+    }
+
+}

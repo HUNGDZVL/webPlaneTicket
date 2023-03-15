@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+  </head>
+  <body>
+    <div class="app grid  ">
+      <header class="header">
+        <div class="header_first l-3 c-o-1 ">
+          <div class="first_text">
+            <img src="./assets/img/Baycungban.svg" alt="" class="text__icon" />
+          </div>
+
+          <div class="header__icon">
+            <img src="./assets/img/vietnam.png" alt="" class="vietnam" />
+          </div>
+          <div class="header__icon">
+            <img src="./assets/img/use.png" alt="" class="use" />
+          </div>
+        </div>
+        <div class="header__menu l-6 m-4">
+          <ul class="menu__list">
+            <li class="list__item  ">Promotion</li>
+            <li class="list__item ">Flight Schedule</li>
+            <li class="list__item ">About us</li>
+            <li class="list__item ">Payment Guide</li>
+          </ul>
+        </div>
+        <div class="header__button l-3 m-o-2 c-o-2">
+          <button class="header__btn" id="btn--click">Booking now</button>
+        </div>
+
+        <div class="header__text l-12 ">
+          <p>Hello!<br /></p>
+
+          <p>
+            Where are
+            <br />
+          </p>
+          <p>
+            you <a style="color: #4d46fa; font-weight: 500">flying</a> to ...
+            <br />
+          </p>
+        </div>
+
+        <div class="container l-11 ">
+          <div class="container__check">
+            <div class="checkandtext">
+              <div class="check__icon checkp fix--mb"><img  src="./assets/img/Rectangle 4.png" alt="" class=""></div>
+              <div class="check__text fix--mb">One way / Round-trip</div>
+            </div>
+             <div class="checkandtext">
+              <div class="check__icon checkp1 disablecheck fix--mb"><img src="./assets/img/Rectangle 4.png" alt="" class=""></div>
+              <div class="check__text fix--mb">Multi-city</div>
+            </div>
+             <div class="checkandtext">
+               <div class="check__text">02 Adult, 01 children</div>
+              <div class="check__icon"><img src="./assets/img/down.png" alt="" class="icon__down"></div>
+            </div>
+             <div class="checkandtext">
+               <div class="check__text">Business Class</div>
+              <div class="check__icon"><img src="./assets/img/down.png" alt="" class="icon__down"></div>
+            </div>
+           
+          </div>
+          <div class="container__from">
+            <div class="container__from--text">
+              <p class="">FROM</p>
+              <p class="">Da Nang</p>
+              <p class="">Quang Nam, Viet Nam</p>
+             
+            
+            </div>
+           <div class="container__from">
+            <div class="container__from--text active__from">
+              <p class="">TO</p>
+              <p class="">Ho Chi Minh</p>
+              <p class="">Viet Nam</p>
+             
+            
+            </div>
+           <div class="container__from--date">
+             <div class="container__from--text">
+              <p class="">DEPARTURE</p>
+              <p class="">Fri, 22 Mar, 2022</p>
+              <p class="">Prev <span>Next</span> </p> 
+             
+            
+            </div>
+             <div class="container__from--text">
+              <p class="">RETURN</p>
+              <p class="">Fri, 22 Mar, 2022</p>
+              <p class=""><span>Prev</span> <span>Next</span></p>
+             
+            
+            </div>
+
+           </div>
+
+           
+          </div>
+        </div>
+        <div>
+          <button class="container__btn " id="change--page">
+            <div class="container__btn--text">Search Flights</div>
+            <div class="container__btn--icon">
+              <img src="./assets/img/l&r.png" alt="" />
+            </div>
+          </button>
+        </div>
+       <div class="icon_vector fix--mb">
+         <div class=""><img src="./assets/img/vl.jpg" alt="vl"></div>
+        <div class=""><img src="./assets/img/vr.png" alt="vr"></div>
+       </div>
+        
+      </header>
+      <div class="footer">
+        <div class="footer__contact fix--ft l-o-1 m-o-1 m-4">
+          <img src="./assets/img/phone.png" alt="">
+          <p>Call us: +84 908 02 02 58</p>
+        </div>
+        <div class="footer__contact fix--ft m-4">
+          <img src="./assets/img/mail.png" alt="">
+          <p>Email: chucinog@gmail.com</p>
+        </div>
+        <div class="footer__contact fix--ft fix--mb l-o-5">
+          <p>Follow us</p>
+          <img src="./assets/img/Line 2.png" alt="" class="liner">
+          <img src="./assets/img/facebook-3 1.png" alt="">
+          <img src="./assets/img/instagram-4 1.png" alt="">
+        </div>
+        <div class="container__mini"></div>
+
+      </div>
+    </div>
+    <div class="product open" id="js-product">
+        <div class="product__header">
+           <div class="header_first product__first l-3">
+          <div class="first_text">
+            <img src="./assets/img/Baycungban.png" alt="" class="text__icon" />
+          </div>
+
+          <div class="header__icon">
+            <img src="./assets/img/vietnam.png" alt="" class="vietnam" />
+          </div>
+          <div class="header__icon">
+            <img src="./assets/img/use.png" alt="" class="use" />
+          </div>
+        </div>
+        <div class="header__menu product__first l-6">
+          <ul class="menu__list fix--menu">
+            <li class="list__item " id="js-item">  Promotion</li>
+            <li class="list__item  active__nav">Flight Schedule</li>
+            <li class="list__item  ">About us</li>
+            <li class="list__item  ">Payment Guide</li>
+          </ul>
+        </div>
+        <div class="header__button product__btn l-3">
+          <button class="header__btn btn__product">Booking now</button>
+        </div>
+        </div>
+        <div class="product__nav">
+          <div class="product__nav--fromto l-o-1">
+            <div class="fromto__text">
+              <p>Da Nang (DAD)<br/></p>
+              <p>Fri, 22 Mar, 2022</p>
+            </div>
+            <div class="fromto__icon">
+              <img src="./assets/img/vl.jpg" alt="">
+              <img src="./assets/img/vr.png" alt="">
+            </div>
+            <div class="fromto__text">
+               <p>Ho Chi Minh (SGN)<br/></p>
+              <p>Fri, 22 Mar, 2022</p>
+            </div>
+          </div>
+          <div class="product__nav--date fix--mb">
+            <div class="date__text fix__date--text">Round-trip</div>
+            <img src="./assets/img/Line 4.png" alt="" class="date__img">
+            <div class="date__text"><span style="color: #4d46fa; font-weight: 600;">02</span > Adult, <span  style="color: #4d46fa; font-weight: 600;" >01</span> children</div>
+            <img src="./assets/img/Line 4.png" alt="" class="date__img">
+
+            <div class="date__text">Business Class</div>
+          </div>
+          <div class="product__nav--btn fix--mb">
+            <div class="nav__btn--text">Change Flights</div>
+            <div class="nav__btn--icon"><img src="./assets/img/fin.png" alt="" class="fin"></div>
+          </div>
+        </div>
+        <div class="product__container">
+          <div class="product__container--infomation l-8 l-o-1">
+            <div class="infomation__list">
+              <div class="info__content fix--mb"><p>Filter</p></div>
+              <div class="info__item">
+                <div class="info__text"><p>Transit</p></div>
+                <div class="info__icon"><img src="./assets/img/down.png" alt=""></div>
+              </div>
+              <div class="info__item">
+                <div class="info__text"><p>Time</p></div>
+                 <div class="info__icon"><img src="./assets/img/down.png" alt=""></div>
+
+              </div>
+              <div class="info__item">
+                <div class="info__text"><p>Airline </p></div>
+                 <div class="info__icon"><img src="./assets/img/down.png" alt=""></div>
+
+              </div>
+              <div class="info__item fix--mb">
+                <div class="info__text"><p>Low Price</p></div>
+                 <div class="info__icon"><img src="./assets/img/down.png" alt=""></div>
+
+              </div>
+             
+            </div>
+            <div class="product__infomation--ticket">
+              <div class="ticket__datetime">
+                <div class="datetime__text">
+                  <img src="./assets/img/Rectangle 20.png" alt="" class="datetime--icon">
+                  <p class="datetime__fixtext" style="font-weight: 600;font-size: 14px;">BAMBOO AIRWAYS<br/></p>
+
+                  
+              </div>
+              <div class="navigation__container__second change--location">
+                <div class="second_num">
+                  <p class="">21:40<br/></p>
+                  <p class="">DAD</p>
+                </div>
+                <div class="second_str">
+                  <div class="str_date">1h30m</div>
+                  <div class="str_icon"><img src="./assets/img/Group 9.png" alt=""></div>
+                  <div class="str_text">Drirect</div>
+                </div>
+                <div class="second_num">
+                  <p class="">23:10<br/></p>
+                  <p class="">DAD</p>
+                </div>
+              </div>
+                
+              <div class="ticket__kg">
+                <div class="kg__iconf">
+                  <img src="./assets/img/nia.png" alt=""class="bag--icon">
+                  <p class="text--bag">Baggage <span style="color: #4d46fa; font-weight: 600;">20kg </span> </p>
+                </div>
+                <div class="kg__icons">
+                   <img src="./assets/img/bag.png" alt="" class="nia--icon">
+                  <p class="nia--text">In-flight   <span style="color: #4d46fa;font-weight: 600;">Meal </span> </p>
+
+                </div>
+              </div>
+              <div class="navigation__footer change--ticket-footer">
+              <p class="text--fix"><del>1,326,000 vnd</del> </p>
+              <p class="text--fixx" style="color: rgba(240, 99, 54, 1);font-weight: 600;
+">1,322,000 vnd</p>
+            </div>
+              <div class="ticket__btn ">
+                <button class="ticket__btn--modifia ">Choose  </button>
+
+              </div>
+            </div>
+              <div class="ticket__cut">
+                <div class="cut__text"><u>FLIGHT DETAIL</u></div>
+                <div class="cut__text--u">FARE INFO</div>
+                <div class="cut__text--cut"><img src="./assets/img/Line 12.png" alt=""></div>
+              </div>
+              <div class="ticket__face">
+                <div class="face__timedate l-1">
+                  <p class=""> <span style="font-size: 12px; font-weight: 600;">21:40</span> <br/> <span style="font-size: 12px; font-weight: 400;" >11 Feb</span> </p>
+                  <p class="text--fix--face" style="font-size: 14px; font-weight: 300;">1h 30m</p>
+                  <p class=""> <span style="font-size: 12px; font-weight: 600;">21:40</span> <br/> <span style="font-size: 12px; font-weight: 400;" >11 Feb</span> </p>
+                  
+                </div>
+                <div class="face__icon--u l-1">
+                  <img class="face--fix--img" src="./assets/img/Group 5.png" alt="">
+                </div>
+                <div class="face__text--from l-2">
+                  <div class="fromone"><p style="font-size: 14px;font-weight: 600;">Da nang (DAD)<br/> <span style="font-size: 12px; font-weight: 400;">Da Nang Airport</span> </p></div>
+                   <div class="fromone"><p style="font-size: 14px;font-weight: 600;">Ho Chi Minh City (SGN)<br/> <span style="font-size: 12px; font-weight: 400;">Tansonnhat Intl</span> </p></div>
+
+                </div>
+                <div class="face__info l-6">
+                  <div class="navigation__container__first">
+                <div class="container__first__img"><img style="width: 40px;margin-top: -4px;" src="./assets/img/Rectangle 20.png" alt="">
+                
+                </div>
+                <div class="container__first__text fix__text_face">
+                  <p style="font-weight: 600;">BAMBOO AIRWAYS<br/></p>
+                  <p>QH-183 <span style="font-size: 35px;">.</span> Economy</p>
+                </div>
+              </div>
+                  <div class="face__info__from">
+                    <div class="face__from_info">
+                  <p class="text--bag">Baggage <span style="color: #4d46fa; font-weight: 600;">20kg </span> </p>
+                  <p class="text--bag">In-flight <span style="color: #4d46fa; font-weight: 600;">Meal </span> </p>
+                  <p class="text--bag">In-flight <span style="color: #4d46fa; font-weight: 600;">Entertainment </span> </p>
+
+                    </div>
+                     <div class="face__from_info">
+                  <p class="text--bag">Aicraft <span style="color: #4d46fa; font-weight: 600;">Airbus A321 </span> </p>
+                  <p class="text--bag">Seat layout <span style="color: #4d46fa; font-weight: 600;">3-3 </span> </p>
+                  <p class="text--bag">Seat pitch <span style="color: #4d46fa; font-weight: 600;">29 inches (standard) </span> </p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <div class="product__infomation--ticket">
+              <div class="ticket__datetime">
+                <div class="datetime__text">
+                  <img src="./assets/img/Rectangle 20.png" alt="" class="datetime--icon">
+                  <p class="datetime__fixtext" style="font-weight: 600;font-size: 14px;">BAMBOO AIRWAYS<br/></p>
+
+                  
+              </div>
+              <div class="navigation__container__second change--location">
+                <div class="second_num">
+                  <p class="">21:40<br/></p>
+                  <p class="">DAD</p>
+                </div>
+                <div class="second_str">
+                  <div class="str_date">1h30m</div>
+                  <div class="str_icon"><img src="./assets/img/Group 9.png" alt=""></div>
+                  <div class="str_text">Drirect</div>
+                </div>
+                <div class="second_num">
+                  <p class="">23:10<br/></p>
+                  <p class="">DAD</p>
+                </div>
+              </div>
+                
+              <div class="ticket__kg">
+                <div class="kg__iconf">
+                  <img src="./assets/img/nia.png" alt=""class="bag--icon">
+                  <p class="text--bag">Baggage <span style="color: #4d46fa; font-weight: 600;">20kg </span> </p>
+                </div>
+                <div class="kg__icons">
+                   <img src="./assets/img/bag.png" alt="" class="nia--icon">
+                  <p class="nia--text">In-flight   <span style="color: #4d46fa;font-weight: 600;">Meal </span> </p>
+
+                </div>
+              </div>
+              <div class="navigation__footer change--ticket-footer">
+              <p class="text--fix"><del>1,326,000 vnd</del> </p>
+              <p class="text--fixx" style="color: rgba(240, 99, 54, 1);font-weight: 600;
+">1,322,000 vnd</p>
+            </div>
+              <div class="ticket__btn">
+                <button class="ticket__btn--modifia active--choose">Choose  </button>
+
+              </div>
+            </div>
+              <div class="ticket__cut">
+                <div class="cut__text--u" style="margin-left: 22px;">FLIGHT DETAIL</div>
+                <div class="cut__text" style="margin-left: -26px;"><u>FARE INFO</u></div>
+                <div class="cut__text--cut"><img src="./assets/img/Line 12.png" alt=""></div>
+              </div>
+              <div class="ticket__infomation">
+                <div class="ticket__infomation--first">
+                  <div class="frist--contant"> <p style="font-weight: 600;font-size: 14px;">CONDITION</p> </div>
+                  <div class="navigation__container__first">
+                <div class="container__first__img"><img style="width: 40px;margin-top: -4px;" src="./assets/img/Rectangle 20.png" alt="">
+                
+                </div>
+                <div class="container__first__text fix__text_face">
+                  <p style="font-weight: 600;">BAMBOO AIRWAYS<br/></p>
+                  <p>QH-183 <span style="font-size: 35px;">.</span> Economy</p>
+                </div>
+              </div>
+                  <div class="frist__fromto">
+                    <div class="fromto--frist">
+                      <p style="font-size: 14px; font-weight: 400;">DA NANG<br/> <span style="font-size: 12px;font-weight: 400; color: #4d46fa;">Econamy</span> </p>
+                    </div>
+                    <div class="fromto--second">
+                      <img src="./assets/img/Group 9.png" alt="">
+                    </div>
+                    <div class="fromto--thirt"><p style="font-size: 14px;font-weight: 400;">Ho Chi Minh City</p></div>
+                  </div>
+                  <div class="fromto--text"><p style="font-size: 12px; font-weight: 400; margin-left: 12px;">Non - Refundable</p></div>
+                </div>
+                <div class="ticket__infomation--second l-o-2">
+                  <p  style="font-size: 14px;font-weight: 600;">PRICE DENTAIL</p>
+                  <p  style="font-size: 14px;font-weight: 400; line-height: 28px; " >
+                    Adult Basic Fare (x1)<br/>
+                    Tax<br/>
+                    Regular Total Price<br/>
+                   <span style="color: #F06336 ;">Save</span> <br/>
+                  </p>
+                   <div>
+                <img class="line101" src="./assets/img/Line 10.png" alt="">
+
+                  </div>
+                    <p  style="font-size: 14px;font-weight: 400; line-height: 28px;">You pay</p>
+
+                 
+                </div>
+                <div class="ticket__infomation--third" style="margin-top: 30px;">
+                   <p  style="font-size: 14px;font-weight: 400; line-height: 28px; " >
+                    <b>1,326,000 vnd</b><br/>
+                    included <br/>
+                    1,326,000 vnd<br/>
+                   <span >-4,000 vnd</span> <br/>
+                  </p>
+                  <div>
+                <img class="line10" src="./assets/img/Line 10.png" alt="">
+
+                  </div>
+                    <p  style="font-size: 14px;font-weight: 400; line-height: 28px;color: #F06336 ;">1,322,000 vnd</p>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="product__infomation--ticket">
+                <div class="ticket__datetime">
+                <div class="datetime__text">
+                  <img src="./assets/img/sen.png" alt="" class="datetime--icon icon-sen">
+                  <p class="datetime__fixtext" style="font-weight: 600;font-size: 14px;">VIETNAM AIRLINES<br/></p>
+
+                  
+              </div>
+              <div class="navigation__container__second change--location">
+                <div class="second_num">
+                  <p class="">21:40<br/></p>
+                  <p class="">DAD</p>
+                </div>
+                <div class="second_str">
+                  <div class="str_date">1h30m</div>
+                  <div class="str_icon"><img src="./assets/img/Group 9.png" alt=""></div>
+                  <div class="str_text">Drirect</div>
+                </div>
+                <div class="second_num">
+                  <p class="">23:10<br/></p>
+                  <p class="">DAD</p>
+                </div>
+              </div>
+                
+              <div class="ticket__kg">
+                <div class="kg__iconf">
+                  <img src="./assets/img/nia.png" alt=""class="bag--icon">
+                  <p class="text--bag">Baggage <span style="color: #4d46fa; font-weight: 600;">20kg </span> </p>
+                </div>
+                <div class="kg__icons">
+                   <img src="./assets/img/bag.png" alt="" class="nia--icon">
+                  <p class="nia--text">In-flight   <span style="color: #4d46fa;font-weight: 600;">Meal </span> </p>
+
+                </div>
+              </div>
+              <div class="navigation__footer change--ticket-footer">
+              <p class="text--fix"><del>1,326,000 vnd</del> </p>
+              <p class="text--fixx" style="color: rgba(240, 99, 54, 1);font-weight: 600;
+">1,322,000 vnd</p>
+            </div>
+              <div class="ticket__btn ">
+                <button class="ticket__btn--modifia ">Choose  </button>
+
+              </div>
+            </div>
+             <div class="ticket__cut">
+               <div class="cut__text" style="margin-left: 22px;"><u>FLIGHT DETAIL</u></div>
+                <div class="cut__text--u" style="margin-left: 4px;">FARE INFO</div>
+              </div>
+            </div>
+            <div class="product__infomation--ticket">
+              <div class="ticket__datetime">
+                <div class="datetime__text">
+                  <img src="./assets/img/Rectangle 20.png" alt="" class="datetime--icon">
+                  <p class="datetime__fixtext" style="font-weight: 600;font-size: 14px;">BAMBOO AIRWAYS<br/></p>
+
+                  
+              </div>
+              <div class="navigation__container__second change--location">
+                <div class="second_num">
+                  <p class="">21:40<br/></p>
+                  <p class="">DAD</p>
+                </div>
+                <div class="second_str">
+                  <div class="str_date">1h30m</div>
+                  <div class="str_icon"><img src="./assets/img/Group 9.png" alt=""></div>
+                  <div class="str_text">Drirect</div>
+                </div>
+                <div class="second_num">
+                  <p class="">23:10<br/></p>
+                  <p class="">DAD</p>
+                </div>
+              </div>
+                
+              <div class="ticket__kg">
+                <div class="kg__iconf">
+                  <img src="./assets/img/nia.png" alt=""class="bag--icon">
+                  <p class="text--bag">Baggage <span style="color: #4d46fa; font-weight: 600;">20kg </span> </p>
+                </div>
+                <div class="kg__icons">
+                   <img src="./assets/img/bag.png" alt="" class="nia--icon">
+                  <p class="nia--text">In-flight   <span style="color: #4d46fa;font-weight: 600;">Meal </span> </p>
+
+                </div>
+              </div>
+              <div class="navigation__footer change--ticket-footer">
+              <p class="text--fix"><del>1,326,000 vnd</del> </p>
+              <p class="text--fixx" style="color: rgba(240, 99, 54, 1);font-weight: 600;
+">1,322,000 vnd</p>
+            </div>
+              <div class="ticket__btn ">
+                <button class="ticket__btn--modifia ">Choose  </button>
+
+              </div>
+            </div>
+              <div class="ticket__cut">
+                <div class="cut__text--u" style="margin-left: 22px;">FLIGHT DETAIL</div>
+                <div class="cut__text" style="margin-left: -26px;"><u>FARE INFO</u></div>
+              </div>
+              </div>
+             <div class="product__infomation--ticket">
+                <div class="ticket__datetime">
+                <div class="datetime__text">
+                  <img src="./assets/img/sen.png" alt="" class="datetime--icon icon-sen">
+                  <p class="datetime__fixtext" style="font-weight: 600;font-size: 14px;">VIETNAM AIRLINES<br/></p>
+
+                  
+              </div>
+              <div class="navigation__container__second change--location">
+                <div class="second_num">
+                  <p class="">21:40<br/></p>
+                  <p class="">DAD</p>
+                </div>
+                <div class="second_str">
+                  <div class="str_date">1h30m</div>
+                  <div class="str_icon"><img src="./assets/img/Group 9.png" alt=""></div>
+                  <div class="str_text">Drirect</div>
+                </div>
+                <div class="second_num">
+                  <p class="">23:10<br/></p>
+                  <p class="">DAD</p>
+                </div>
+              </div>
+                
+              <div class="ticket__kg">
+                <div class="kg__iconf">
+                  <img src="./assets/img/nia.png" alt=""class="bag--icon">
+                  <p class="text--bag">Baggage <span style="color: #4d46fa; font-weight: 600;">20kg </span> </p>
+                </div>
+                <div class="kg__icons">
+                   <img src="./assets/img/bag.png" alt="" class="nia--icon">
+                  <p class="nia--text">In-flight   <span style="color: #4d46fa;font-weight: 600;">Meal </span> </p>
+
+                </div>
+              </div>
+              <div class="navigation__footer change--ticket-footer">
+              <p class="text--fix"><del>1,326,000 vnd</del> </p>
+              <p class="text--fixx" style="color: rgba(240, 99, 54, 1);font-weight: 600;
+">1,322,000 vnd</p>
+            </div>
+              <div class="ticket__btn ">
+                <button class="ticket__btn--modifia ">Choose  </button>
+
+              </div>
+            </div>
+             <div class="ticket__cut">
+               <div class="cut__text" style="margin-left: 22px;"><u>FLIGHT DETAIL</u></div>
+                <div class="cut__text--u" style="margin-left: 4px;">FARE INFO</div>
+              </div>
+            </div>
+            <div class="product__infomation--ticket">
+              <div class="ticket__datetime">
+                <div class="datetime__text">
+                  <img src="./assets/img/Rectangle 20.png" alt="" class="datetime--icon">
+                  <p class="datetime__fixtext" style="font-weight: 600;font-size: 14px;">BAMBOO AIRWAYS<br/></p>
+
+                  
+              </div>
+              <div class="navigation__container__second change--location">
+                <div class="second_num">
+                  <p class="">21:40<br/></p>
+                  <p class="">DAD</p>
+                </div>
+                <div class="second_str">
+                  <div class="str_date">1h30m</div>
+                  <div class="str_icon"><img src="./assets/img/Group 9.png" alt=""></div>
+                  <div class="str_text">Drirect</div>
+                </div>
+                <div class="second_num">
+                  <p class="">23:10<br/></p>
+                  <p class="">DAD</p>
+                </div>
+              </div>
+                
+              <div class="ticket__kg">
+                <div class="kg__iconf">
+                  <img src="./assets/img/nia.png" alt=""class="bag--icon">
+                  <p class="text--bag">Baggage <span style="color: #4d46fa; font-weight: 600;">20kg </span> </p>
+                </div>
+                <div class="kg__icons">
+                   <img src="./assets/img/bag.png" alt="" class="nia--icon">
+                  <p class="nia--text">In-flight   <span style="color: #4d46fa;font-weight: 600;">Meal </span> </p>
+
+                </div>
+              </div>
+              <div class="navigation__footer change--ticket-footer">
+              <p class="text--fix"><del>1,326,000 vnd</del> </p>
+              <p class="text--fixx" style="color: rgba(240, 99, 54, 1);font-weight: 600;
+">1,322,000 vnd</p>
+            </div>
+              <div class="ticket__btn ">
+                <button class="ticket__btn--modifia ">Choose  </button>
+
+              </div>
+            </div>
+              <div class="ticket__cut">
+                <div class="cut__text--u" style="margin-left: 22px;">FLIGHT DETAIL</div>
+                <div class="cut__text" style="margin-left: -26px;"><u>FARE INFO</u></div>
+              </div>
+              </div>
+               <div class="product__infomation--ticket">
+                <div class="ticket__datetime">
+                <div class="datetime__text">
+                  <img src="./assets/img/sen.png" alt="" class="datetime--icon icon-sen">
+                  <p class="datetime__fixtext" style="font-weight: 600;font-size: 14px;">VIETNAM AIRLINES<br/></p>
+
+                  
+              </div>
+              <div class="navigation__container__second change--location">
+                <div class="second_num">
+                  <p class="">21:40<br/></p>
+                  <p class="">DAD</p>
+                </div>
+                <div class="second_str">
+                  <div class="str_date">1h30m</div>
+                  <div class="str_icon"><img src="./assets/img/Group 9.png" alt=""></div>
+                  <div class="str_text">Drirect</div>
+                </div>
+                <div class="second_num">
+                  <p class="">23:10<br/></p>
+                  <p class="">DAD</p>
+                </div>
+              </div>
+                
+              <div class="ticket__kg">
+                <div class="kg__iconf">
+                  <img src="./assets/img/nia.png" alt=""class="bag--icon">
+                  <p class="text--bag">Baggage <span style="color: #4d46fa; font-weight: 600;">20kg </span> </p>
+                </div>
+                <div class="kg__icons">
+                   <img src="./assets/img/bag.png" alt="" class="nia--icon">
+                  <p class="nia--text">In-flight   <span style="color: #4d46fa;font-weight: 600;">Meal </span> </p>
+
+                </div>
+              </div>
+              <div class="navigation__footer change--ticket-footer">
+              <p class="text--fix"><del>1,326,000 vnd</del> </p>
+              <p class="text--fixx" style="color: rgba(240, 99, 54, 1);font-weight: 600;
+">1,322,000 vnd</p>
+            </div>
+              <div class="ticket__btn ">
+                <button class="ticket__btn--modifia ">Choose  </button>
+
+              </div>
+            </div>
+             <div class="ticket__cut">
+               <div class="cut__text" style="margin-left: 22px;"><u>FLIGHT DETAIL</u></div>
+                <div class="cut__text--u" style="margin-left: 4px;">FARE INFO</div>
+              </div>
+            </div>
+            <div class="product__infomation--ticket">
+              <div class="ticket__datetime">
+                <div class="datetime__text">
+                  <img src="./assets/img/Rectangle 20.png" alt="" class="datetime--icon">
+                  <p class="datetime__fixtext" style="font-weight: 600;font-size: 14px;">BAMBOO AIRWAYS<br/></p>
+
+                  
+              </div>
+              <div class="navigation__container__second change--location">
+                <div class="second_num">
+                  <p class="">21:40<br/></p>
+                  <p class="">DAD</p>
+                </div>
+                <div class="second_str">
+                  <div class="str_date">1h30m</div>
+                  <div class="str_icon"><img src="./assets/img/Group 9.png" alt=""></div>
+                  <div class="str_text">Drirect</div>
+                </div>
+                <div class="second_num">
+                  <p class="">23:10<br/></p>
+                  <p class="">DAD</p>
+                </div>
+              </div>
+                
+              <div class="ticket__kg">
+                <div class="kg__iconf">
+                  <img src="./assets/img/nia.png" alt=""class="bag--icon">
+                  <p class="text--bag">Baggage <span style="color: #4d46fa; font-weight: 600;">20kg </span> </p>
+                </div>
+                <div class="kg__icons">
+                   <img src="./assets/img/bag.png" alt="" class="nia--icon">
+                  <p class="nia--text">In-flight   <span style="color: #4d46fa;font-weight: 600;">Meal </span> </p>
+
+                </div>
+              </div>
+              <div class="navigation__footer change--ticket-footer">
+              <p class="text--fix"><del>1,326,000 vnd</del> </p>
+              <p class="text--fixx" style="color: rgba(240, 99, 54, 1);font-weight: 600;
+">1,322,000 vnd</p>
+            </div>
+              <div class="ticket__btn ">
+                <button class="ticket__btn--modifia ">Choose  </button>
+
+              </div>
+            </div>
+              <div class="ticket__cut">
+                <div class="cut__text--u" style="margin-left: 22px;">FLIGHT DETAIL</div>
+                <div class="cut__text" style="margin-left: -26px;"><u>FARE INFO</u></div>
+              </div>
+              </div>
+              <div class="footer" style="height:85px">
+        <div class="footer__contact fix--contact">
+          <img src="./assets/img/phone.png" alt="">
+          <p>Call us: +84 908 02 02 58</p>
+        </div>
+        <div class="footer__contact fix--contact">
+          <img src="./assets/img/mail.png" alt="">
+          <p>Email: chucinog@gmail.com</p>
+        </div>
+        <div class="footer__contact l-o-4 fix--contactt fix--mb">
+          <p>Follow us</p>
+          <img src="./assets/img/Line 2.png" alt="" class="liner">
+          <img src="./assets/img/facebook-3 1.png" alt="">
+          <img src="./assets/img/instagram-4 1.png" alt="">
+        </div>
+
+      </div>
+             
+
+          </div>
+          <div class="product__container--navigation l-2 fix--mb">
+            <div class="navigation__header">
+              <p>YOUR FLIGHTS</p>
+            </div>
+            <div class=""><img src="./assets/img/Line 14.png" alt="" class="linenav"></div>
+            <div class="navigation__container">
+              <div class="navigation__container__first">
+                <div class="container__first__img">
+                  <img src="./assets/img/01.png" alt="" class="numone">
+                  <img src="./assets/img/Rectangle 41.png" alt="">
+                </div>
+                <div class="container__first__text">
+                  <p style="font-weight: 400;">Fri,11 Feb, 2022<br/></p>
+                  <p style="font-weight: 600;">Da Nang - Ho Chi Minh</p>
+                </div>
+              </div>
+              <div class="navigation__container__first">
+                <div class="container__first__img"><img style="width: 36px; margin-top: -2px;" src="./assets/img/Rectangle 20.png" alt="">
+                
+                </div>
+                <div class="container__first__text">
+                  <p style="font-weight: 600;">BAMBOO AIRWAYS<br/></p>
+                  <a href="" style="color: rgba(77, 70, 250, 1); font-weight: 600;"><u>Details</u></a>
+                </div>
+              </div>
+              <div class="navigation__container__second">
+                <div class="second_num">
+                  <p class="">21:40<br/></p>
+                  <p class="">DAD</p>
+                </div>
+                <div class="second_str">
+                  <div class="str_date">1h30m</div>
+                  <div class="str_icon"><img src="./assets/img/Group 9.png" alt=""></div>
+                  <div class="str_text">Drirect</div>
+                </div>
+                <div class="second_num">
+                  <p class="">23:10<br/></p>
+                  <p class="">DAD</p>
+                </div>
+              </div>
+              <div class="navigation__container__third">
+                <button class="nav__text--btn">Change departure flight</button>
+              </div>
+            </div>
+            <div class=""><img src="./assets/img/Line 14.png" alt="" class="lineshort"></div>
+
+            <div class="navigation__container__first">
+                <div class="container__first__img">
+                  <img src="./assets/img/02.png" alt="" class="numone">
+                  <img src="./assets/img/Rectangle 42.png" alt="">
+                </div>
+                <div class="container__first__text">
+                  <p style="font-weight: 400;">Sun, 13 Feb, 2022<br/></p>
+                  <p style="font-weight: 600;">Ho Chi Minh - Da Nang</p>
+                </div>
+              </div>
+            <div class="navigation__footer">
+              <p class="text--fix">Subtotal</p>
+              <p class="text--fixx" style="color: rgba(240, 99, 54, 1);font-weight: 600;
+">1,322,000 vnd</p>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
