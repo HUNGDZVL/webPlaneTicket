@@ -42,11 +42,9 @@ checkIcon1.addEventListener("click", () => {
   checkIcon1.classList.toggle("disablecheck");
 });
 
-const itemClick = $$(".fix--menu li");
-console.log(itemClick);
-for (var i of itemClick) {
-  console.log(i);
-  i.onclick = function () {
-    console.log('test');
-  };
+const itemList = $$("ul li");
+console.log(itemList);
+for( let i = 0; i < itemList.length; i++){
+    const item = itemList[i];
+    item.addEventListener("click",handleClickbtn);
 }
